@@ -1,0 +1,4 @@
+18:45:08.417 [main] INFO  resources.base - Added pet details are {"photoUrls":["string"],"name":"Puppy","id":"0628","category":{"name":"string","id":0},"tags":[{"name":"string","id":0}],"status":"available"}
+18:45:13.856 [main] INFO  resources.base - Retrieving newly added Pet details...
+18:45:16.580 [main] INFO  resources.base - {"id":628,"category":{"id":0,"name":"string"},"name":"Puppy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+18:45:16.679 [main] INFO  resources.base - Pet was removed successfully

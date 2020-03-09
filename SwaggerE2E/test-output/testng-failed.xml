@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="petSwagger.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Pet Test cases(failed)">
+    <classes>
+      <class name="petSwagger.PetStoreTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="failurePet"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- petSwagger.PetStoreTest -->
+    </classes>
+  </test> <!-- Pet Test cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

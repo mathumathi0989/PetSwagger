@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26953" started-at="2020-03-09T22:45:00Z" finished-at="2020-03-09T22:45:27Z">
+    <groups>
+    </groups>
+    <test name="Pet Test cases" duration-ms="26953" started-at="2020-03-09T22:45:00Z" finished-at="2020-03-09T22:45:27Z">
+      <class name="petSwagger.PetStoreTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:petSwagger.PetStoreTest@6e509ffa]" name="initialize" is-config="true" duration-ms="6116" started-at="2020-03-09T18:45:00Z" finished-at="2020-03-09T18:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="addPet()[pri:0, instance:petSwagger.PetStoreTest@6e509ffa]" name="addPet" duration-ms="7032" started-at="2020-03-09T18:45:06Z" finished-at="2020-03-09T18:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method status="PASS" signature="retrievePet()[pri:0, instance:petSwagger.PetStoreTest@6e509ffa]" name="retrievePet" duration-ms="2727" started-at="2020-03-09T18:45:13Z" finished-at="2020-03-09T18:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrievePet -->
+        <test-method status="PASS" signature="removePet()[pri:0, instance:petSwagger.PetStoreTest@6e509ffa]" name="removePet" duration-ms="103" started-at="2020-03-09T18:45:16Z" finished-at="2020-03-09T18:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePet -->
+        <test-method status="FAIL" signature="failurePet()[pri:0, instance:petSwagger.PetStoreTest@6e509ffa]" name="failurePet" duration-ms="10417" started-at="2020-03-09T18:45:16Z" finished-at="2020-03-09T18:45:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='operations-pet-addPet']//button[@class='btn try-out__btn']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-PSPSVDJ', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mathu\AppData\Local\Temp\scoped_dir4996_1700461616}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56832}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 551ec2aeb9f0d2d9800a15ba2ddd3145
+*** Element info: {Using=xpath, value=//*[@id='operations-pet-addPet']//button[@class='btn try-out__btn']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='operations-pet-addPet']//button[@class='btn try-out__btn']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-PSPSVDJ', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mathu\AppData\Local\Temp\scoped_dir4996_1700461616}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56832}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 551ec2aeb9f0d2d9800a15ba2ddd3145
+*** Element info: {Using=xpath, value=//*[@id='operations-pet-addPet']//button[@class='btn try-out__btn']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at petSwagger.PetStoreTest.failurePet(PetStoreTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failurePet -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:petSwagger.PetStoreTest@6e509ffa]" name="teardown" is-config="true" duration-ms="110" started-at="2020-03-09T18:45:27Z" finished-at="2020-03-09T18:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- petSwagger.PetStoreTest -->
+    </test> <!-- Pet Test cases -->
+  </suite> <!-- Suite -->
+</testng-results>
